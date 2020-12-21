@@ -42,7 +42,10 @@ const Button = styled.button.attrs({ type: 'submit' })`
 
 const Input = styled.input.attrs({ type: 'text' })`
   border: 3px solid ${props => props.theme.colors.black}; 
-
+  margin: 0;
+  border-radius: 0;
+  height: 2em;
+  
   :active, :focus {
     outline: none;
   }
