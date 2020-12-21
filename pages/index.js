@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Button from '../components/button/Button'
+import TextInput from '../components/input/text/TextInput'
 
 export default function Home() {
   return (
@@ -39,6 +40,14 @@ export default function Home() {
         />
       </div>
 
+      <div>
+        <h2>Inputs</h2>
+
+        <TextInput
+          placeholder='Placeholder text'
+        />
+
+      </div>
     </>
   )
 }
