@@ -26,6 +26,7 @@ import Button from '../components/button/Button'
 ```
 
 ## Dependencies
+* [Next/Link](https://nextjs.org/docs/api-reference/next/link)
 * [Styled-components](https://styled-components.com/)
 
 ## Developer

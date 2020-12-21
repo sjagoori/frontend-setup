@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styled, { ThemeProvider } from 'styled-components';
 import theme from '../../styles/theme'
 import Icon from '../../assets/svg/chevron-right'
@@ -11,12 +12,12 @@ export default class Button extends React.Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <a href={this.props.url}>
+        <Link href={this.props.url}>
           <Container variant={this.props.variant}>
             <Icon />
             <span>{this.props.label}</span>
           </Container>
-        </a>
+        </Link>
       </ThemeProvider>
     )
   }
@@ -47,13 +48,14 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
   svg {
     margin-left: -15px;
     fill: ${props => {
-      if (props.variant == 'primary') return props.theme.colors.white;
-      if (props.variant == 'secondary' || props.variant == 'ghost') return props.theme.colors.black;
-    }};
+    if (props.variant == 'primary') return props.theme.colors.white;
+    if (props.variant == 'secondary' || props.variant == 'ghost') return props.theme.colors.black;
+  }};
     opacity: ${props => props.variant == 'text' ? 1 : 0};
     margin-right: 10px;
     transition:  opacity .1s ease-in-out;
