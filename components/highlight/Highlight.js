@@ -19,10 +19,10 @@ export default class Highlight extends React.Component {
 }
 
 const Text = styled.span`
-  background: linear-gradient(to top, ${props => props.variant == 'high' ? props.theme.colors.yellow : props.theme.colors.grey} .2em, transparent 50%);
+  background: linear-gradient(to top, ${props => props.variant == 'high' ? props.theme.colors.yellow : props.theme.colors.grey} .45em, transparent 0%);
   width: max-content;
   
   :hover{
-    background: linear-gradient(to top, ${props => props.variant == 'high' ? props.theme.colors.yellow : props.theme.colors.grey} 1.2em, transparent 50%);
+    background: linear-gradient(to top, ${props => props.variant == 'high' ? props.theme.colors.yellow : props.theme.colors.grey} 1.2em, transparent 0%);
   }
 `
