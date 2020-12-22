@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Button from '../components/button/Button'
 import TextInput from '../components/input/text/TextInput'
+import Highlight from '../components/highlight/Highlight'
 
 export default function Home() {
   return (
@@ -12,6 +13,16 @@ export default function Home() {
       </Head>
 
       <h1>Front-end Setup</h1>
+
+      <div>
+        <h2>Text</h2>
+        <h1>Header</h1>
+        <h2>Subheader</h2>
+        <p>The quick brown fox jumps over the lazy dog</p>
+        <p>1234567890</p>
+        <p>This is a high type <Highlight variant='high'>highlight</Highlight></p>
+        <p>This is a low type <Highlight>highlight</Highlight></p>
+      </div>
 
       <div>
         <h2>Buttons</h2>
