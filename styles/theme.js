@@ -4,10 +4,10 @@ export default {
     secondary: "#CCCCCC",
     black: "#1D1D1D",
     white: "white",
-    grey: "#CCCCCC",
+    grey: "#D5D5D5",
     red: "red",
     green: "#27CB73",
-    yellow: '#FFCC00'
+    yellow: '#F2DE66'
   },
   backgroundColor:'#FBF1F4'
 }
