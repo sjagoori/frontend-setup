@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import styled, { ThemeProvider } from 'styled-components';
-import theme from '../../styles/theme'
-import Icon from '../../assets/svg/chevron-right'
+import theme from 'styles/theme'
+import Icon from 'assets/svg/chevron-right'
 
 export default class Button extends React.Component {
   constructor(props) {

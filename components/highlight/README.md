@@ -16,7 +16,7 @@
 Import and implement component
 
 ```js
-import Highlight from '../components/highlight/Highlight'
+import Highlight from 'components/highlight/Highlight'
 
 <Highlight 
   variant='high' // optional

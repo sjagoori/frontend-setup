@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Button from '../components/button/Button'
-import TextInput from '../components/input/text/TextInput'
-import Highlight from '../components/highlight/Highlight'
+import Button from 'components/button/Button'
+import TextInput from 'components/input/text/TextInput'
+import Highlight from 'components/highlight/Highlight'
 
 export default function Home() {
   return (

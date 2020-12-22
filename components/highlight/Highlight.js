@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import theme from '../../styles/theme'
+import theme from 'styles/theme'
 
 export default class Highlight extends React.Component {
   constructor(props) {

@@ -16,7 +16,7 @@
 Import and implement component
 
 ```js
-import TextInput from '../components/input/text/TextInput'
+import TextInput from 'components/input/text/TextInput'
 
 <TextInput
   placeholder='Placeholder text' // optional
